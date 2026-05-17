@@ -21,7 +21,7 @@ unzip bzflag-$bzversion.zip
 cd bzflag-$bzversion
 ./autogen.sh
 sleep 1
-./configure
+./configure --disable-client --disable-bzadmin  
 sleep 1
 make
 sleep 1
